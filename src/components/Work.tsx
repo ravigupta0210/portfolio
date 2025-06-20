@@ -49,42 +49,42 @@ const Work = () => {
     </h2>
     <div className="work-flex">
       {[
-        {
-          id: "01",
-          title: "eMart",
-          category: "E-Commerce Platform",
-          tools: "React, Node.js, Express, MongoDB, Stripe, Tailwind",
-          image: "src/assets/images/emart.jpeg",
-        },
-        {
-          id: "02",
-          title: "SocialPedia",
-          category: "Social Media App",
-          tools: "React, Node.js, Express, MongoDB, MUI",
-          image: "src/assets/images/socio.jpeg",
-        },
-        {
-          id: "03",
-          title: "eDocOffice",
-          category: "Healthcare System",
-          tools: "React, Node.js, Express, MongoDB, MUI",
-          image: "src/assets/images/e-doc.webp",
-        },
-        {
-          id: "04",
-          title: "Exploring Handicraft",
-          category: "Static Web App",
-          tools: "HTML, CSS, Bootstrap, JavaScript",
-          image: "src/assets/images/handicraft.jpg",
-        },
-        {
-          id: "06",
-          title: "Portfolio Website",
-          category: "Personal Branding",
-          tools: "React, Three.js, Framer Motion",
-          image: "src/assets/images/portfolio.png",
-        },
-      ].map((project, index) => (
+  {
+    id: "01",
+    title: "eMart",
+    category: "E-Commerce Platform",
+    tools: "React, Node.js, Express, MongoDB, Stripe, Tailwind",
+    image: "/assets/images/emart.jpeg",
+  },
+  {
+    id: "02",
+    title: "SocialPedia",
+    category: "Social Media App",
+    tools: "React, Node.js, Express, MongoDB, MUI",
+    image: "/assets/images/socio.jpeg",
+  },
+  {
+    id: "03",
+    title: "eDocOffice",
+    category: "Healthcare System",
+    tools: "React, Node.js, Express, MongoDB, MUI",
+    image: "/assets/images/e-doc.webp",
+  },
+  {
+    id: "04",
+    title: "Exploring Handicraft",
+    category: "Static Web App",
+    tools: "HTML, CSS, Bootstrap, JavaScript",
+    image: "/assets/images/handicraft.jpg",
+  },
+  {
+    id: "06",
+    title: "Portfolio Website",
+    category: "Personal Branding",
+    tools: "React, Three.js, Framer Motion",
+    image: "/assets/images/portfolio.png",
+  },
+].map((project, index) => (
         <div className="work-box" key={index}>
           <div className="work-info">
             <div className="work-title">
